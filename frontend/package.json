@@ -1,0 +1,24 @@
+{
+  "name": "listrank-frontend",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "panda:codegen": "panda codegen"
+  },
+  "devDependencies": {
+    "@sveltejs/kit": "^2.17.1",
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "svelte": "^5.20.4",
+    "svelte-check": "^4.1.4",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.1"
+  },
+  "dependencies": {
+    "firebase": "^11.6.0"
+  }
+}
